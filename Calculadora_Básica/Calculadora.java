@@ -27,17 +27,17 @@ public class Calculadora {
 
 				switch (opcao) {
 					case 1:
-						System.out.println("\nA soma de a + b é: " + (a + b));
+						System.out.println("\nA soma de " + a + " + " + b + " é: " + (a + b));
 						break;
 					case 2:
-						System.out.println("\nA multiplicação de a * b é: " + (a * b));
+						System.out.println("\nA multiplicação de " + a + " * " + b + " é: " + (a * b));
 						break;
 					case 3:
-						System.out.println("\nA subtração de a - b é: " + (a - b));
+						System.out.println("\nA subtração de " + a + " - " + b + " é: " + (a - b));
 						break;
 					case 4:
 			   			if (b != 0) {
-							System.out.println("\nA divisão de a / b é: " + (a / b));
+							System.out.println("\nA divisão de " + a + " / " + b + " é: " + (a / b));
 			   			} else {
 							System.out.println("\nNão pode dividir por zero");
 						}
